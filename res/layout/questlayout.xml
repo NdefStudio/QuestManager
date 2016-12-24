@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:gravity="center_vertical">
+
+	<ImageView
+		android:layout_height="50dp"
+		android:layout_width="50dp"
+		android:src="@drawable/icon_notchecked"
+		android:id="@+id/isCheckedView1"
+		android:layout_marginLeft="20dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Quest Title"
+		android:textSize="25sp"
+		android:padding="8dp"
+		android:layout_toRightOf="@id/isCheckedView1"
+		android:id="@+id/questlayoutTextView1"/>
+
+	<ImageView
+		android:layout_height="50dp"
+		android:layout_width="50dp"
+		android:src="@drawable/rank_d"
+		android:layout_alignParentRight="true"
+		android:id="@+id/rankView"/>
+
+</RelativeLayout>
+
