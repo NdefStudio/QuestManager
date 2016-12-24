@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Quests</string>
+	<string name="creatq">CreatQuest</string>
+    <string name="maina">MainActivity</string>
+    <string name="queslsta">QuestListActivity</string>
+    <string name="hista">HistoryActivity</string>
+
+</resources>
